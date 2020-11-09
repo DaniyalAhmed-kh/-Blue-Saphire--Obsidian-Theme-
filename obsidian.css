@@ -1,0 +1,340 @@
+.theme-dark .graph-view.color-fill-tag {
+  color: darkbrown;
+}
+.empty-state-action {
+    cursor: pointer;
+    line-height: 36px;
+    --text-accent-hover: lightcyan;
+}
+.theme-dark .graph-view.color-fill-attachment {
+  color: darkseablue;
+}
+.empty-state {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    background-color: #1c1c33;
+    left: 0;
+    color: blanchedalmond;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.theme-dark .graph-view.color-fill-unresolved {
+  color: #fa9a00;
+  Opacity:1;
+}
+
+.theme-dark .graph-view.color-arrow {
+  color: lightred;
+}
+
+
+.graph-view.color-fill {
+    color: #f41906;
+}
+.graph-view.color-circle {
+    color: #fa782f;
+}
+.graph-view.color-line {
+    color:  #25437e;
+}
+
+.graph-view.color-text {
+    color: white;
+}
+
+.graph-view.color-fill-highlight {
+    color: #ff5142;
+}
+.graph-view.color-line-highlight {
+    color: #fb8e51;
+}
+
+
+.markdown-preview-view blockquote p {
+    margin: 0 0px;
+}
+.cm-hmd-list-indent .cm-tab, ul ul { position: relative; }
+.cm-hmd-list-indent .cm-tab::before, ul ul::before {
+ content:'';
+ border-left: 2px solid rgba(0, 122, 0, 0.25);
+ position: absolute;
+}
+.cm-s-obsidian span.cm-link, .cm-s-obsidian span.cm-hmd-internal-link {
+    color: coral;
+    text-decoration: none;
+}
+
+.markdown-preview-view img {
+  display: block;
+  margin-top: 20pt;
+  margin-bottom: 20pt;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;  /* experiment with values */
+  transition:transform 0.25s ease;
+}
+
+.markdown-preview-view img:hover {
+    -webkit-transform:scale(1.8); /* experiment with values */
+    transform:scale(1.6);
+    
+}
+
+markdown-preview-view blockquote {
+    border: 4px solid #71ff90;
+}
+.cm-hmd-list-indent .cm-tab, ul ul {
+    position: relative;
+    right: 4.5px;
+}
+.cm-hmd-list-indent .cm-tab::before, ul ul::before {
+    content: '';
+    border-left: 2px solid rgb(234 223 182);
+    position: absolute;
+}
+.cm-hmd-list-indent .cm-tab::before { left: 0; top: -5px; bottom: -4px; 
+}
+ul ul::before { left: -11px; top: 0; bottom: 0; 
+} 
+.workspace-tab-header {
+    color: var(--background-secondary);
+    text-align: center;
+    stroke-width: 2px;
+}
+
+
+.side-dock-ribbon {
+    background-color: #8875ff;
+}
+.collapsible-item-self {
+    color: #00abff;
+}
+
+.workspace-ribbon.is-collapsed {
+    background-color: #8875ff;
+}
+.side-dock-ribbon-tab, .side-dock-ribbon-action {
+    color: #000000d9;
+}
+a {
+    color: #ff9528;
+    outline: none;
+}
+.cm-s-obsidian span.cm-hashtag {
+    color: coral;
+    text-decoration: underline;
+}
+.markdown-preview-view blockquote {
+    border: 3px solid #bf6108;
+}
+.markdown-preview-view mark {
+    background-color: #023261;
+    color: #ffffff;
+}
+.cm-s-obsidian span.cm-formatting-highlight, .cm-s-obsidian span.cm-highlight {
+    background-color: #023261;
+    color: #ffffff;
+}
+.markdown-preview-view h1 {
+    font-size: 35px;
+    line-height: 30px;
+}
+.status-bar {
+    background-color: #373a36;
+    border-top: 1px solid #000;
+    color: #fff;
+}
+.pane-list-item-ending-flair {
+    background-color: #ff7f04e6;
+}
+.search-result-count {
+    color: var(--background-modifier-error);
+}
+.graph-control-section-header {
+    font-weight: 500;
+    font-size: 14px;
+    color:#ef9d10;
+}
+.titlebar-button.mod-close:hover {
+    background-color: #ff4201;
+}
+.graph-controls {
+    border: 1px solid #00ffd7;
+}
+.workspace-leaf-resize-handle {
+    background-color: #3e6b92;
+}
+.markdown-preview-view h1 {
+    font-size: 35px;
+    line-height: 35px;
+    color: #10a56e;
+}
+.cm-header-1 {
+    font-weight: 600;
+    color:  #10a56e;
+    font-size: 30pt;
+}
+.markdown-preview-view h2 {
+    color: cyan;
+    font-size: 34px;
+    line-height: 32px;
+}
+.markdown-preview-view blockquote {
+    border: 3px solid #5e5da2;
+}
+.cm-header-2 {
+    color: cyan;
+    font-weight: 600;
+    font-size: 27pt;
+}
+.markdown-preview-view h3 {
+    color: #00abff;
+    font-size: 28px;
+    line-height: 28px;
+}
+.cm-header-3 {
+    color: #00abff;
+    font-size: 23pt;
+}
+.markdown-preview-view blockquote {
+    border: 3px solid #483699;
+}
+.markdown-preview-view blockquote p {
+    margin: 0 0px;
+    color: #ffeb00;
+}
+.markdown-preview-view blockquote p {
+    margin: -5px;
+    color: #ffffff;
+    background-color: #093145;
+}
+.markdown-embed-link, .file-embed-link {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color: #a9ff00;
+    cursor: grab;
+}
+.markdown-embed .markdown-preview-view {
+    padding: 10px 10px 10px 20px;
+}
+em {
+    color: darkcyan;
+}
+strong {
+    color: darkcyan;
+}
+.cm-em {
+    font-style: italic;
+    color: darkcyan;
+}
+.markdown-preview-view h6 {
+    font-size: 18px;
+    color: var(--text-highlight-bg);
+}
+
+.markdown-preview-view h4 {
+    font-size: 20px;
+    color: burlywood;
+}
+.cm-strong {
+    font-weight: bold;
+    color: darkcyan;
+}
+.markdown-preview-view img, .markdown-preview-view audio, .markdown-preview-view video {
+    max-width: 100%;
+    outline: auto;
+}
+.markdown-preview-view ul > li.task-list-item.is-checked {
+    text-decoration: line-through;
+    color: khaki;
+}
+.markdown-preview-view hr {
+    border: none;
+    border-top: 3px solid;
+    border-color: #79582db5;
+}
+.markdown-preview-view th, .markdown-preview-view td {
+    padding: 4px 10px;
+    border: 1px solid #90d5f7;
+}
+.markdown-preview-view .internal-link.is-unresolved {
+    opacity: 1.5;
+    color: #6abfbf;
+}
+.markdown-preview-view .internal-link {
+    text-decoration: underline;
+    cursor: pointer;
+    color: orange;
+    --text-accent-hover: red;
+}
+th {
+    color: darkorange;
+}
+td {
+    color: white;
+}
+p {
+    color: khaki;
+}
+span {
+    color: khaki;
+}
+li {
+    color: darkkhaki;
+}
+a {
+    color: #ff9528;
+    outline: none;
+}
+.markdown-preview-view .markdown-embed, .markdown-preview-view .file-embed {
+    border-top: 4px solid var(--background-modifier-border);
+    border-bottom: 4px solid var(--background-modifier-border);
+    padding: 4px 0;
+    margin: 28px 0;
+    border-color: darkseagreen;
+}
+.nav-file-title, .nav-folder-title {
+
+    color: #35daffb5;
+}
+
+.theme-dark {
+    --background-primary: #0a1b1f;
+    --text-faint: #00abff;
+    --text-on-accent: #ffffff;
+    --text-selection: var(--text-faint);
+    --text-muted: #75d1ff;
+    --text-highlight-bg: #ffe1ba38;
+    --background-secondary-alt: var(--text-accent-hover);
+    --text-accent: #27f7ff;
+    --scrollbar-active-thumb-bg: var(--text-selection);
+    --scrollbar-bg: var(--background-primary);
+    --scrollbar-thumb-bg: rgb(117 242 255);
+    --text-normal: #ffffff;
+    --background-secondary: #100e17;
+    --text-selection: #fdfeff14;
+}
+/* obsidian-calendar-plugin */
+/* https://github.com/liamcain/obsidian-calendar-plugin */
+
+#calendar-container {
+  --color-background-heading: transparent;
+
+  --color-background-day: transparent;
+  --color-background-day-empty: #100e17;
+  --color-background-day-active: black;
+  --color-background-day-hover: var(--interactive-hover);
+
+  --color-dot: var(--text-muted);
+  --color-arrow: currentColor;
+
+  --color-text-title: Red;
+  --color-text-heading: darkorange;
+  --color-text-day: cyan;
+  --color-text-today: coral;
+}
